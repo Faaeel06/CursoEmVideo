@@ -10,8 +10,8 @@ razao = int(input('Digite a Razão: '))
 
 while True:
     if contador < (inicio + 10 * razao):
-        contador = inicio
-        inicio += razao
-    elif contador >= inicio + 10 * razao:
+        contador = inicio + razao
+    else:
         break
     print(contador)
+
